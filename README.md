@@ -6,7 +6,12 @@
 그럼 사람들이 알려줄 때까지 기다릴까요?
 1년 뒤에도 코드 모르는 게, 그게 진짜 창피한 거 아닙니까?
 ```
+> 스토브리그 中  
 
-> 스토브리그 中
+<br/>
 
-# 
+# 추천 TIL
+
+업무시간 중 참고하였던,  
+[최민서](https://github.com/mangdo/TIL)님과 [Namjun Kim](https://github.com/namjunemy/TIL)님, [Lee HyunJoo](https://wayhome25.github.io/)님 TIL를 보고 시작해보게 되었다.
+
