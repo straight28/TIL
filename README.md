@@ -21,4 +21,4 @@
 # 분류
 
 ### C#
-+ [230612_C#_File_관련](https://github.com/straight28/TIL/C#/C#_File_관련.md)
++ [230612_C#_File_관련](https://github.com/straight28/TIL/blob/main/C%23/C%23_File_%EA%B4%80%EB%A0%A8.md)
