@@ -15,3 +15,10 @@
 업무시간 중 참고하였던,  
 [최민서](https://github.com/mangdo/TIL)님과 [Namjun Kim](https://github.com/namjunemy/TIL)님, [Lee HyunJoo](https://wayhome25.github.io/)님 TIL를 보고 시작해보게 되었다.
 
+
+<br/>
+
+# 분류
+
+### C#
++ [230612_C#_File_관련](https://github.com/straight28/TIL/C#/C#_File_관련.md)
