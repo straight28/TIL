@@ -1,12 +1,9 @@
 # Today I Learned (TIL)
 
 ```
-남들이 비웃는게 무서워서
-책으로라도 안 배우면 누가 저에게 알려줍니까? 
-그럼 사람들이 알려줄 때까지 기다릴까요?
-1년 뒤에도 코드 모르는 게, 그게 진짜 창피한 거 아닙니까?
+지금 알고 있는 것을 그때도 알았더라면
 ```
-> 스토브리그 中  
+
 
 <br/>
 
@@ -22,3 +19,8 @@
 
 ### C#
 + [230612_C#_File_관련](https://github.com/straight28/TIL/blob/main/C%23/C%23_File_%EA%B4%80%EB%A0%A8.md)
+
+
+
+### Node
++ [230614_NODE_Javascript_이벤트루프](https://github.com/straight28/TIL/blob/main/node/Javascript_EventLoop.md)
