@@ -1,0 +1,50 @@
+모니터 (monitor)
+
+    - mutual exclusion (상호배제) 을 보장
+    - 조건에 따라 스레드가 대기 (waiting 상태로 전환 기능)
+
+    - 한 번에 하나의 스레드만 실행되야 할 때
+    - 여러 스레드와 협업이 필요할 때
+
+구성요소
+    - mutex
+        critical section 에서 mutual exclusion을 보장하는 장치
+        critical section 에 진입하려면 mutex lock을 취득해야 함
+
+        mutex lock 을 취득하지 못한 스레드( 현재 다른 프로세스가 실행 중 )는
+        큐에 들어간 후 대기 (waiting) 상태로 전환
+
+        mutex lock을 쥔 스레드가 lock을 반환하면 락을 기다리며 큐에 대기상태로 있던 스레드 중 하나가 실행
+
+    - condition variable(s)
+        waiting queue를 가짐
+        waiting queue : 조건이 충족되길 기다리는 스레드들이 대기 상태로 머무르는 곳
+
+condtion variable에서 주요 동작 (operation)
+    wait 
+    thread 가 자기 자신을 condition variable의 waiting queue에 넣고 대기 상태로 전환
+
+    signal
+    waiting queue에서 대기중인 스레드 중 하나를 꺠움
+
+    broadcast
+    waiting queue에서 대기중인 스레드 전부를 깨움
+
+
+두 개의 (queue)
+
+entry queue : critical section 에 진입을 기다리는 큐 (뮤텍스에 의해)
+waiting queue : 조건이 충족되길 기다리는 큐 (condition variable에 의해)
+
+
+
+acquire(m);                         // 모니터의 락 취득
+while(!p){                          // 조건 확인
+    wait(m,cv);                     // 조건 충족 안되면 waiting
+}
+
+~~~
+signal(cv2);  or  broadcast(cv2);   // cv2가 cv와 같을 수도 있음
+release(m);                         // 모니터의 락 반환
+
+
